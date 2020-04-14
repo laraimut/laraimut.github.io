@@ -106,7 +106,7 @@ background-position: center center;
 background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-background-image: url("../img/bg.jpeg");
+background-image: url("../img/bg.jpg");
 }
 .fade-carousel .slides .slide-2 {
 background-image:url("../img/bg2.jpg") ;
@@ -493,7 +493,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/bg.jpeg") ;
+  background: url("../img/bg.jpg") ;
   background-size: cover;
   padding: 200px 0 120px 0;
 }

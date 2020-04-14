@@ -45,11 +45,13 @@
 #clientss{
 margin-top: 5%;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 400px) {
 .hidden-mob{
   visibility: hidden;
 }
- 
+.intro-info{
+  margin-top: 110px !important;
+}
 }
 
  .mobile{
@@ -92,9 +94,11 @@ margin-top: 5%;
     <div class="container">
     
 <div class="mobile">
+  <div id="overlay">
       <div class="intro-img">
         <img src="assets/img/intro-img.svg" alt="" class="img-fluid">
       </div>
+    </div> 
     </div>
       <div class="carousel-info-button">
 
@@ -102,7 +106,7 @@ margin-top: 5%;
         <div class="hero">
           <hgroup>
               <h1>Masaya</h1>        
-              <h2>Event</h2>
+              <h2>Event Management</h2>
           </hgroup>
           <!-- <div class="hidden-mob">
           <a href="#about"> <button class="btn btn-info btn-lg" role="button">More</button></a> 
